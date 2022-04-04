@@ -3,7 +3,7 @@
 import cv2 as cv
 import numpy as np
 
-imagem_original = cv.imread('videos//pessoas2.jpg')
+imagem_original = cv.imread('input//pessoas2.jpg')
 
 imagem_resize = cv.resize(imagem_original,(600,800))
 
